@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo">
-      <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a class="main-header__logo logo">
+      <svg class="logo__image" width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#a)">
           <path
             d="M6.07 20.72v-2.26a143.265 143.265 0 0 1 20.17-1.33c0 .6 0 1.21-.06 1.82a25.518 25.518 0 0 1 6-1.82A16.67 16.67 0 0 0 .19 20.39l5.88.33ZM27.24 24.23c-1.16 1.28-1.39 1.2-1.39 3.45v9.18A16.64 16.64 0 0 0 33.32 23a17.302 17.302 0 0 0-.32-3.1 33.109 33.109 0 0 0-5.76 4.33ZM6.36 25.72s-3.79-1.44-5.19-1.83A8.541 8.541 0 0 0 0 23.61a16.65 16.65 0 0 0 8.68 14L6.36 25.72Z"
@@ -36,16 +37,20 @@
           </clipPath>
         </defs>
       </svg>
-    </a>
-    <a class="main-header__logo">
-      <svg width="129" height="24" viewBox="0 0 129 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="logo__text" width="129" height="24" viewBox="0 0 129 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M2.103 22.051A9.498 9.498 0 0 1 .5 16.308V7.795a9.63 9.63 0 0 1 1.502-5.846C3.104.615 4.807 0 7.311 0s4.106.615 5.108 1.744a7.487 7.487 0 0 1 1.502 5.025v2.052H9.013V6.46a5.157 5.157 0 0 0-.3-2.05 1.463 1.463 0 0 0-.579-.63 1.415 1.415 0 0 0-.823-.191c-.701 0-1.202.205-1.403.718a6.774 6.774 0 0 0-.3 2.256v10.974a4.334 4.334 0 0 0 .4 2.154c.2.513.702.718 1.403.718.7 0 1.102-.205 1.302-.718.228-.693.33-1.423.3-2.154v-2.461h4.908v2.051a7.98 7.98 0 0 1-1.502 5.128c-1.002 1.231-2.705 1.847-5.108 1.847-2.404-.103-4.207-.718-5.208-2.052ZM19.83.308h5.71l4.206 23.384h-4.607l-.802-4.923h-3.305l-.801 4.923h-4.708L19.83.308Zm4.107 15.384-1.202-9.128-1.202 9.128h2.404ZM33.251 4.205h-3.405V.308h11.918v3.794H38.36v19.59h-5.108V4.205ZM50.879.308h8.814v2.461h-5.71v7.692h4.608v2.36h-4.607v8.615h5.709v2.359h-8.914V.308h.1ZM62.297.308H64.5l6.51 15.487V.308h2.604v23.384h-2.003l-6.61-16v16h-2.704V.308ZM76.619.308h8.814v2.461h-5.71v7.692h4.608v2.36h-4.607v8.615h5.709v2.359h-8.814V.308ZM88.037.308h4.607a7.873 7.873 0 0 1 5.108 1.436c1.102.923 1.602 2.564 1.602 4.717 0 2.975-.901 4.821-2.804 5.436l3.205 11.693H96.65l-3.005-10.975h-2.503V23.59h-3.205V.308h.1Zm4.407 10.05a4.302 4.302 0 0 0 2.904-.82c.601-.512.902-1.538.902-3.077a6.772 6.772 0 0 0-.3-2.256 2.583 2.583 0 0 0-1.103-1.23 4.473 4.473 0 0 0-2.203-.411h-1.402v7.692h1.202v.103ZM103.361 21.949a10.566 10.566 0 0 1-1.402-5.95V8.206c-.025-1.486.143-2.97.5-4.41a5.204 5.204 0 0 1 1.903-2.667 6.421 6.421 0 0 1 3.706-.923c2.103 0 3.606.513 4.507 1.641a7.982 7.982 0 0 1 1.402 5.128v.82h-3.004v-.717a15.503 15.503 0 0 0-.201-2.564 2.056 2.056 0 0 0-.801-1.334 3.04 3.04 0 0 0-1.903-.512 2.955 2.955 0 0 0-2.003.615 2.349 2.349 0 0 0-.801 1.641 19.734 19.734 0 0 0-.201 2.77v8.717a9.527 9.527 0 0 0 .601 3.898c.401.82 1.202 1.128 2.404 1.128.475.06.956-.024 1.384-.243a2.45 2.45 0 0 0 1.02-.988 9.635 9.635 0 0 0 .701-4.102V14.46h-2.905v-2.359h5.809v11.59h-2.003l-.3-2.666a4.18 4.18 0 0 1-1.554 2.21 4.016 4.016 0 0 1-2.553.764 4.907 4.907 0 0 1-2.406-.47 5.037 5.037 0 0 1-1.9-1.581ZM120.487 15.487 115.58.41h3.004l3.506 11.282L125.495.41h3.005l-4.908 15.077v8.205h-3.004v-8.205h-.101Z"
           fill="#111" /></svg>
+          <span class="visually-hidden">Логотип Кэт-энерджи</span>
     </a>
     <nav class="main-navigation">
       <button class="main-navigation__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
+        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="1.25" x2="24" y2="1.25" stroke="black" stroke-width="1.5"/>
+          <line y1="9.25" x2="24" y2="9.25" stroke="black" stroke-width="1.5"/>
+          <line y1="17.25" x2="24" y2="17.25" stroke="black" stroke-width="1.5"/>
+          </svg>
       </button>
       <div class="main-navigation__container">
         <ul class="main-navigation__list site-list">
@@ -63,23 +68,23 @@
     </nav>
   </header>
   <main class="main-container">
-    <h1 class="main-container__header">Каталог продукции</h1>
     <section class="catalogue-section">
-      <div class="catalogue-container">
-        <h2 class="visually-hidden">список продуктов</h2>
-        <ul class="catalogue-product-list product-list">
-          <li class="product-item">
-            <img class="product-item__image" src="/source/img/product-images/catenergy-pro-chicken-500g.png" width="140"
-              height="112" alt="кэт энерджи с курицей 500г">
-            <span class="product-item__name">Cat Energy<br>
+      <div class="catalogue">
+        <h1 class="catalogue__header">Каталог продукции</h1>
+          <h2 class="visually-hidden">список продуктов</h2>
+          <ul class="catalogue__product-list product-list">
+            <li class="catalogue__product-item product-item">
+              <img class="product-item__image" src="./img/product-images/catenergy-pro-chicken-500g.png" width="140"
+                height="112" alt="кэт энерджи с курицей 500г">
+              <span class="product-item__name">Cat Energy<br>
               PRO 500 г</span>
             <span class="product-item__description">Масса 500г</span>
             <span class="product-item__description">Вкус Курица</span>
             <span class="product-item__description">700 ₽ </span>
             <button class="product-item__button button">Заказать</button>
           </li>
-          <li class="product-item">
-            <img class="product-item__image" src="/source/img/product-images/catenergy-pro-chicken-1000g.png" width="140"
+          <li class="catalogue__product-item product-item">
+            <img class="product-item__image" src="./img/product-images/catenergy-pro-chicken-1000g.png" width="140"
               height="112" alt="кэт энерджи с курицей 1000г">
             <span class="product-item__name">Cat Energy<br>
               PRO 1000 г</span>
@@ -88,8 +93,8 @@
             <span class="product-item__description">1000 ₽ </span>
             <button class="product-item__button button">Заказать</button>
           </li>
-          <li class="product-item">
-            <img class="product-item__image" src="/source/img/product-images/catenergy-pro-fish-500g.png" width="140"
+          <li class="catalogue__product-item product-item">
+            <img class="product-item__image" src="./img/product-images/catenergy-pro-fish-500g.png" width="140"
               height="112" alt="кэт энерджи с рыбой 500г">
             <span class="product-item__name">Cat Energy<br>
               PRO 500 г</span>
@@ -98,8 +103,8 @@
             <span class="product-item__description">700 ₽ </span>
             <button class="product-item__button button">Заказать</button>
           </li>
-          <li class="product-item">
-            <img class="product-item__image" src="/source/img/product-images/catenergy-pro-fish-1000g.png" width="140"
+          <li class="catalogue__product-item product-item">
+            <img class="product-item__image" src="./img/product-images/catenergy-pro-fish-1000g.png" width="140"
               height="112" alt="кэт энерджи с рыбой 1000г">
             <span class="product-item__name">Cat Energy<br>
               PRO 1000 г</span>
@@ -108,8 +113,8 @@
             <span class="product-item__description">1000 ₽ </span>
             <button class="product-item__button button">Заказать</button>
           </li>
-          <li class="product-item">
-            <img class="product-item__image" src="/source/img/product-images/catenergy-slim-cereal-500g.png" width="140"
+          <li class="catalogue__product-item product-item">
+            <img class="product-item__image" src="./img/product-images/catenergy-slim-cereal-500g.png" width="140"
               height="112" alt="кэт энерджи с гречкой 500г">
             <span class="product-item__name">Cat Energy<br>
               Slim 500 г</span>
@@ -118,8 +123,8 @@
             <span class="product-item__description">400 ₽ </span>
             <button class="product-item__button button">Заказать</button>
           </li>
-          <li class="product-item">
-            <img class="product-item__image" src="/source/img/product-images/catenergy-slim-cereal-1000g.png" width="140"
+          <li class="catalogue__product-item product-item">
+            <img class="product-item__image" src="./img/product-images/catenergy-slim-cereal-1000g.png" width="140"
               height="112" alt="кэт энерджи с гречкой 1000г">
             <span class="product-item__name">Cat Energy<br>
               Slim 1000 г</span>
@@ -128,8 +133,8 @@
             <span class="product-item__description">700 ₽ </span>
             <button class="product-item__button button">Заказать</button>
           </li>
-          <li class="product-item">
-            <img class="product-item__image" src="/source/img/product-images/catenergy-slim-rice-500g.png" width="140"
+          <li class="catalogue__product-item product-item">
+            <img class="product-item__image" src="./img/product-images/catenergy-slim-rice-500g.png" width="140"
               height="112" alt="кэт энерджи с гречкой 500г">
             <span class="product-item__name">Cat Energy<br>
               Slim 500 г</span>
@@ -138,8 +143,8 @@
             <span class="product-item__description">500 ₽ </span>
             <button class="product-item__button button">Заказать</button>
           </li>
-          <li class="product-item product-item--show-more">
-            <p class="product-item__show-more">Показать еще 100500 товаров</p>
+          <li class="catalogue__product-item product-item product-item--show-more">
+            <p class="product-item__name product-item__name--show-more">Показать еще 100500 товаров</p>
             <span class=" product-item__description product-item__description--show-more">На самом деле вкусов гораздо
               больше!</span>
             <button class="product-item__button product-item__button--show-more">Показать все</button>
@@ -154,30 +159,34 @@
           <li class="additional-products__item">
             <span class="additional-products__name">Сахарозаменитель</span>
             <span class="additional-products__description">1 упаковка (100г)</span>
-            <span class="additional-products__price">200 ₽</span>
+            <span class="additional-products__price additional-products__description ">200 ₽</span>
+            <button class="additional-product-button button">Заказать</button>
           </li>
           <li class="additional-products__item">
             <span class="additional-products__name">Питьевая вода</span>
             <span class="additional-products__description">5 литров</span>
-            <span class="additional-products__price">50 ₽</span>
+            <span class="additional-products__price additional-products__description ">50 ₽</span>
+            <button class="additional-product-button button">Заказать</button>
           </li>
           <li class="additional-products__item">
             <span class="additional-products__name">Молоко</span>
-            <span class="additional-products__description">1 литр</span>
-            <span class="additional-products__price">100 ₽</span>
+            <span class="additional-products__description ">1 литр</span>
+            <span class="additional-products__price additional-products__description ">100 ₽</span>
+            <button class="additional-product-button button">Заказать</button>
           </li>
           <li class="additional-products__item">
             <span class="additional-products__name">Витамины</span>
             <span class="additional-products__description">1 упаковка (30г)</span>
-            <span class="additional-products__price">300 ₽</span>
+            <span class="additional-products__price additional-products__description ">300 ₽</span>
+            <button class="additional-product-button button">Заказать</button>
           </li>
         </ul>
       </div>
-      <div class="gift-container gift">
+      <div class="gift">
         <h2 class="visually-hidden">Подарочное предложение</h2>
         <a class="gift__link">
-          <p class="gift__link__text">Закажите все
-            и получите чехол для
+          <p class="gift__text">Закажите все<br>
+            и получите чехол для<br>
             кота в подарок!</p>
         </a>
       </div>
@@ -195,7 +204,7 @@
           <address class="location__address location__address--street">ул. Большая
             Конюшенная, д. 19/8</address>
           <address class="location__address location__address--city">Санкт-Петербург</address>
-        <img class="location__image" src="/source/img/location.jpg" width="320" height="362"
+        <img class="location__image" src="./img/location.jpg" width="320" height="362"
           alt="Карта расположения магазина">
       </div>
       <div class="main-footer__logo logo">
