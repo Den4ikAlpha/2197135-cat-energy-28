@@ -1,8 +1,12 @@
+.product-item {
+  padding: 11px 20px 14px;
+}
+
 .product-item__name {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #222222;
+  color: $product-item-name-color;
 }
 
 .product-item__description {
@@ -11,15 +15,15 @@
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color:#444444
+  color: $secondary-font-color;
 }
 
 .product-item__button {
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: $product-item-button-text-color;
   text-transform: uppercase;
   &--show-more {
-    color: #000000;
+    color: $primary-font-color;
   }
 }

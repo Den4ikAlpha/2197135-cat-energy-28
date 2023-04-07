@@ -1,0 +1,21 @@
+.real-example-result {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.real-example-result__item {
+  border: #CDCDCD solid 1px;
+  margin-bottom: 20px;
+  min-width: 124px;
+  max-width: 164px;
+}
+
+.result-costs__text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $primary-font-color;
+}
+

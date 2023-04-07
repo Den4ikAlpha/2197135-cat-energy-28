@@ -1,7 +1,7 @@
 .choose-programm__container {
   margin: 0 auto;
-  background-color: #FFFFFF;
-  background-image: url("../../img/background-rectangle.png"), url("../../img/index-main-background.png");
+  background-color: $main-background-color;
+  background-image: url("../img/background-rectangle.png"), url("../img/index-main-background.png");
   background-repeat: no-repeat;
   background-position: center;
   font-family:"Oswald", sans-serif;
@@ -10,7 +10,7 @@
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: $background-font-color;
 }
 
 .choose-programm__slogan {

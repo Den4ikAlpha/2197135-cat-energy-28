@@ -2,17 +2,11 @@
   margin: 0 auto;
 }
 
-.programm-description-item {
-  background-color: #D9D9D9;
-  margin: 20px;
-  padding: 24px 33px 18px 20px;
-}
-
 .programm-description__title {
   font-weight: 400;
   font-size: 24px;
   line-height: 37px;
-  color: #000000;
+  color: $primary-font-color;
   text-transform: uppercase;
 }
 
@@ -21,7 +15,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #444444;
+  color: $secondary-font-color;
 }
 
 .programm-description__link {

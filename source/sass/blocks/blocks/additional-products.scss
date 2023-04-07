@@ -11,20 +11,20 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #222222;
+  color: $additional-products-name-color;
   text-transform: uppercase;
 }
 
 .additional-products__description {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color:#444444
+  color:$secondary-font-color;
 }
 
-.additional-products-item__button {
+.additional-products__button {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
