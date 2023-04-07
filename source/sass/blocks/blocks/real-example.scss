@@ -1,0 +1,28 @@
+.real-example__container {
+  margin: 0 auto;
+  padding: 25px 20px;
+  background-color: $real-example-background-color;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: $primary-font-color;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.real-example__header {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.real-example__text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: $secondary-font-color;
+}

@@ -1,0 +1,32 @@
+.additional-products__container {
+  margin: 0 auto;
+  padding: 25px 20px 19px;
+}
+
+.additional-products__list {
+  list-style-type: none;
+}
+
+.additional-products__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $additional-products-name-color;
+  text-transform: uppercase;
+}
+
+.additional-products__description {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color:$secondary-font-color;
+}
+
+.additional-products__button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}

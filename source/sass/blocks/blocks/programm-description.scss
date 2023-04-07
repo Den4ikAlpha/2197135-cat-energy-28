@@ -1,0 +1,26 @@
+.programm-description__container {
+  margin: 0 auto;
+}
+
+.programm-description__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  color: $primary-font-color;
+  text-transform: uppercase;
+}
+
+.programm-description__description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: $secondary-font-color;
+}
+
+.programm-description__link {
+  margin-top: 38px;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
