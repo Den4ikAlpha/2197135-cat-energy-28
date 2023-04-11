@@ -15,7 +15,6 @@
 .real-example__header {
   margin: 0;
   margin-bottom: 40px;
-  font-size: 400;
   font-size: 36px;
   line-height: 40px;
   text-align: center;
@@ -54,10 +53,5 @@
   .real-example__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .real-example__content {
-    display: flex;
-    flex-direction: column;
   }
 }

@@ -15,7 +15,7 @@
   list-style-type: none;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .main-footer__container {
     min-width: 769px;
     width: 769px;
@@ -28,7 +28,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .main-footer__container {
     min-width: 1200px;
     width: 1200px;

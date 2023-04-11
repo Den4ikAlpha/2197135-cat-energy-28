@@ -8,7 +8,7 @@
   margin: 0 auto;
   font-family: "Oswald", sans-serif;
   font-size: 400;
-  color:$primary-font-color;
+  color: $primary-font-color;
   background: $main-background-color;
 }
 
@@ -20,7 +20,7 @@
   }
 }
 
-@media(min-width: $desktop-width) {
+@media (min-width: $desktop-width) {
   .main-container {
     min-width: 1200px;
     width: 1200px;

@@ -17,19 +17,19 @@
   text-transform: uppercase;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .additional-info-form__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .additional-info__lower-container {
+  .additional-info-form__lower-container {
     display: flex;
     justify-content: space-between;
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .additional-info-form__container {
     display: flex;
     flex-direction: row;

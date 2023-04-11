@@ -35,6 +35,7 @@
     min-width: 414px;
     width: 414px;
   }
+
   .choose-programm-text-description {
     font-size: 60px;
     line-height: 60px;
@@ -44,7 +45,6 @@
     font-size: 20px;
     line-height: 20px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
@@ -53,12 +53,9 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 190px;
-
   }
 
   .choose-programm-text__image {
-     display: none;
+    display: none;
   }
 }
-
-
