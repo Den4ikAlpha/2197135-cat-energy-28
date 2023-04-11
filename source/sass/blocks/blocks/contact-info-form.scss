@@ -1,4 +1,6 @@
-.contact-info-form{
+.contact-info-form__container{
+  display: flex;
+  flex-direction: column;
   padding: 26px 20px 22px 20px;
 }
 
@@ -15,4 +17,11 @@
   line-height: 18px;
   color: $secondary-font-color;
   text-transform: uppercase;
+}
+
+@media (min-width:$desktop-width) {
+  .contact-info-form__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

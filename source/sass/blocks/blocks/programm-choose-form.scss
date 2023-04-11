@@ -1,5 +1,7 @@
 .programm-choose-form {
-  padding: 27px 20px 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .programm-choose-form__header{
@@ -22,4 +24,9 @@
     line-height: 16px;
     text-transform:initial;
   }
+}
+
+.programm-choose-form__container {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,19 +1,36 @@
 .choose-programm__container {
-  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: $main-background-color;
-  background-image: url("../img/background-rectangle.png"), url("../img/index-main-background.png");
-  background-repeat: no-repeat;
-  background-position: center;
   font-family:"Oswald", sans-serif;
   font-size: 36px;
   font-weight: 400px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  color: $background-font-color;
+  color: $primary-font-color;
 }
 
-.choose-programm__slogan {
-  font-size: 14px;
-  line-height: 14px;
+@media (min-width: $tablet-width) {
+  .choose-programm__container {
+    color: $primary-font-color;
+    display: flex;
+    flex-direction: column;
+    background-size: 30%;
+    background-position: 50% center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choose-programm__container {
+    display: flex;
+    flex-direction: column;
+    background: url("../img/index-can-desktop.png") no-repeat;
+    background-size: 400px;
+    background-position: 50% center;
+  }
 }

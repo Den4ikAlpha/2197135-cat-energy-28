@@ -1,0 +1,24 @@
+
+.hero-block-background-image {
+  background-image: url("../img/index-background-desktop.png");
+  position: absolute;
+  min-height: 302px;
+  max-width: 768px;
+  top: 10px;
+  width: 100%;
+  max-width: 320px;
+  background: rgba(104, 183, 56, 1);
+}
+
+.hero-block-background-image__cat {
+  width: 100%;
+  max-width: 768px;
+  opacity: 0.3;
+  object-fit: cover;
+}
+
+@media (min-width: $tablet-width) {
+  .hero-block-background-image {
+    display: none;
+  }
+}

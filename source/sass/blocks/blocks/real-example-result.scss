@@ -1,6 +1,15 @@
 .real-example-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.real-example-result__numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
 }
 
 .real-example-result__item {
@@ -10,12 +19,28 @@
   max-width: 164px;
 }
 
-.result-costs__text {
+.result-example-result__text {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   color: $primary-font-color;
+}
+
+
+@media (min-width: $tablet-width) {
+  .real-example-result {
+    display: flex;
+    flex-direction: row;
+    column-gap: 167px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .real-example-result {
+    display: flex;
+    flex-direction: column;
+  }
 }
 

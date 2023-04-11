@@ -1,5 +1,8 @@
 .programm-description__container {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
 }
 
 .programm-description__title {
@@ -23,4 +26,22 @@
   text-decoration: none;
   color: inherit;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .programm-description__container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programm-description__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    margin: 0 auto;
+  }
 }

@@ -1,4 +1,6 @@
 .comment-form {
+  display: flex;
+  flex-direction: column;;
   padding: 0 20px;
 }
 
@@ -9,8 +11,11 @@
 }
 
 .comment-form__input {
+  min-width: 280px;
+  min-height: 150px;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color:$secondary-font-color;
 }
+
