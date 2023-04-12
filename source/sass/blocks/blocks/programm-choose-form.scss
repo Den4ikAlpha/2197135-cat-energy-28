@@ -1,8 +1,10 @@
 .programm-choose-form {
-  padding: 27px 20px 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.programm-choose-form__header{
+.programm-choose-form__header {
   margin: 0;
   margin-bottom: 37px;
   font-weight: 400;
@@ -15,11 +17,17 @@
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
-  &--warning{
-    font-family: 'Lato', sans-serif;
+
+  &--warning {
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    text-transform:initial;
+    text-transform: initial;
   }
+}
+
+.programm-choose-form__container {
+  display: flex;
+  flex-direction: column;
 }
