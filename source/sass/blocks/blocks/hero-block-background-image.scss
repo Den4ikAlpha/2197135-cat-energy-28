@@ -2,16 +2,16 @@
 .hero-block-background-image {
   background-image: url("../img/index-background-desktop.png");
   position: absolute;
-  min-height: 302px;
+  max-height: 302px;
   top: 10px;
-  width: 100%;
-  max-width: 320px;
+  width: 100vw;
   background-color: rgba(104, 183, 56, 1);
+  background-size: 100%;
 }
 
 .hero-block-background-image__cat {
   width: 100%;
-  max-width: 768px;
+  max-height: 302px;
   opacity: 0.3;
   object-fit: cover;
 }

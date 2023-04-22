@@ -13,14 +13,23 @@
 }
 
 .real-example-result__item {
-  border: #cdcdcd solid 1px;
   margin-bottom: 20px;
   min-width: 124px;
-  max-width: 164px;
+  background-image: url("../../../img/icons/result-number-border.svg");
+  background-repeat: no-repeat;
+}
+
+.real-example-result__number {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
 }
 
 .result-example-result__text {
   font-family: "Oswald", sans-serif;
+  margin: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -33,6 +42,8 @@
   .real-example-result {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
     column-gap: 167px;
   }
 }
@@ -41,5 +52,10 @@
   .real-example-result {
     display: flex;
     flex-direction: column;
+    margin: 0;
+  }
+
+  .real-example-result__numbers {
+    column-gap: 42px;
   }
 }

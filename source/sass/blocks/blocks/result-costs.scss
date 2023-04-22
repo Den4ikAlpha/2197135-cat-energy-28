@@ -5,4 +5,33 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+
+  & br {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .result-costs {
+    display: flex;
+  }
+
+  .result-costs__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+
+    & br {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .result-costs__text {
+    & br {
+      display: none;
+    }
+  }
 }

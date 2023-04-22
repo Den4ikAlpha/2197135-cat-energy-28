@@ -5,6 +5,7 @@
   font-size: 24px;
   line-height: 24px;
   text-align: center;
+  text-transform: uppercase;
   color: $primary-font-color;
 }
 
@@ -15,4 +16,26 @@
   line-height: 12px;
   text-align: center;
   color: $secondary-font-color;
+}
+
+@media (min-width: $desktop-width) {
+  .result-item {
+    width: 163px;
+    background-size: 100% 80%;
+    margin-bottom: 55px;
+  }
+
+  .result-item__number {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .result-item__text {
+    font-size: 14px;
+    line-height: 14px;
+
+    & br {
+      display: none;
+    }
+  }
 }

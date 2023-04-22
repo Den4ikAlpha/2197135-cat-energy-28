@@ -1,6 +1,6 @@
 .choose-programm__container {
   position: relative;
-  width: 100%;
+  width: 100vw;
   min-height: 480px;
   display: flex;
   flex-direction: column;
@@ -17,20 +17,31 @@
 
 @media (min-width: $tablet-width) {
   .choose-programm__container {
+    min-width: 709px;
+    width: 92%;
+    margin-top: 62px;
     color: $primary-font-color;
     display: flex;
     flex-direction: column;
-    background-size: 30%;
-    background-position: 50% center;
+    align-items: flex-start;
+    background-image: url("../../img/index-can-tablet\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 709px 609px;
+    background-position: left bottom 50px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .choose-programm {
+    min-width: 1220px;
+    width: 85%;
+    align-self: flex-start;
+    margin-left: 10%;
+  }
+
   .choose-programm__container {
-    display: flex;
-    flex-direction: column;
-    background: url("../img/index-can-desktop.png") no-repeat;
-    background-size: 400px;
-    background-position: 50% center;
+    padding-left: 0;
+    background-size: 522px 499px;
+    background-position: 60%;
   }
 }
