@@ -1,7 +1,49 @@
+.htmlacademy {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 281px;
+}
+
 .htmlacademy__link {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: $secondary-font-color;
   text-decoration: none;
+
+  &:hover {
+    color: #444444;
+  }
+
+  &:focus {
+    color: #444444;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.htmlacademy__icon {
+  fill: #666666;
+}
+
+.htmlacademy__link:hover .htmlacademy__icon,
+.htmlacademy__link:focus .htmlacademy__icon {
+  fill: #68b738;
+}
+
+.htmlacademy__link:active .htmlacademy__icon {
+  fill: #68b738;
+  opacity: 0.3;
+}
+
+@media (min-width: $tablet-width) {
+  .htmlacademy {
+    justify-content: flex-end;
+    column-gap: 28px;
+    width: auto;
+  }
 }

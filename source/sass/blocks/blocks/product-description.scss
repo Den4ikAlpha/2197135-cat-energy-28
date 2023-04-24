@@ -1,37 +1,93 @@
+.product-descriptions {
+  margin: 0;
+}
+
 .product-descriptions__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  min-width: 280px;
-  background: $main-background-color;
+  align-items: flex-start;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: $main-background-color;
 }
 
 .product-descriptions__header {
+  margin-top: 20px;
   margin-bottom: 40px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .product-descriptions__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
   list-style-type: none;
+  padding: 0;
 }
 
 .product-descriptions__item {
+  position: relative;
   margin-left: 80px;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  margin-bottom: 20px;
+}
+
+.product-descriptions__text {
+  margin: 0;
+}
+
+.product-descriptions__item--1::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/icons/leaf-icon.png");
+  left: -80px;
+}
+
+.product-descriptions__item--2::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/icons/vessel-icon.png");
+  left: -80px;
+}
+
+.product-descriptions__item--3::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/icons/fork-icon.png");
+  left: -80px;
+}
+
+.product-descriptions__item--4::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/icons/clock-icon.png");
+  left: -80px;
 }
 
 @media (min-width: $tablet-width) {
+  .product-descriptions {
+    width: 100%;
+  }
+
   .product-descriptions__container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
     font-size: 16px;
     line-height: 24px;
   }
@@ -39,26 +95,119 @@
   .product-descriptions__header {
     font-size: 60px;
     line-height: 60px;
+    margin: 0;
+    margin-bottom: 32px;
   }
 
   .product-descriptions__list {
     display: grid;
+    margin: 0;
+    padding: 0;
     grid-template-columns: 1fr 1fr;
+    column-gap: 153px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .product-descriptions__item {
+    min-height: 280px;
+    margin-left: 0;
+  }
+
+  .product-descriptions__item--1 {
+    background-image: url("../img/background-images/image-one.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    &::before {
+      left: 0;
+    }
+  }
+
+  .product-descriptions__item--2 {
+    background-image: url("../img/background-images/image-two.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    &::before {
+      left: 0;
+    }
+  }
+
+  .product-descriptions__item--3 {
+    background-image: url("../img/background-images/image-three.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    &::before {
+      left: 0;
+    }
+  }
+
+  .product-descriptions__item--4 {
+    background-image: url("../img/background-images/image-four.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    &::before {
+      left: 0;
+    }
+  }
+
+  .product-descriptions__text {
+    margin-top: 100px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .product-descriptions {
+    width: 100%;
+  }
+
   .product-descriptions__container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
     font-size: 16px;
     line-height: 24px;
   }
 
   .product-descriptions__list {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    column-gap: 94px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .product-descriptions__item--1 {
+    background-image: url("../img/background-images/image-one.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .product-descriptions__item--2 {
+    background-image: url("../img/background-images/image-two.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .product-descriptions__item--3 {
+    background-image: url("../img/background-images/image-three.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .product-descriptions__item--4 {
+    background-image: url("../img/background-images/image-four.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+
+  .product-descriptions__text {
+    margin-top: 111px;
   }
 
   .product-descriptions__header {

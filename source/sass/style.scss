@@ -4,9 +4,11 @@
 @import "./utils/img.scss";
 @import "./utils/fonts.scss";
 @import "./utils/colors.scss";
+@import "./utils/buttons.scss";
 @import "./utils/visually-hidden.scss";
 // header blocks
 @import "../sass/blocks/blocks/main-header.scss";
+@import "./blocks/blocks/logo.scss";
 @import "../sass/blocks/blocks/main-container.scss";
 @import "../sass/blocks/blocks/main-navigation.scss";
 @import "../sass/blocks/blocks/site-list.scss";

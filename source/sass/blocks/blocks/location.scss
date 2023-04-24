@@ -1,10 +1,16 @@
 .location {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 26px 20px;
+}
+
+.location__image {
+  width: 100vw;
+  max-height: 362px;
 }
 
 .location__text {
+  margin: 0;
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -12,10 +18,27 @@
   color: $primary-font-color;
 }
 
-.location__address {
+.location__address address {
   font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: $secondary-font-color;
-  text-decoration: none;
+
+  & br {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .location__address address {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+
+    & br {
+      display: block;
+    }
+  }
 }
