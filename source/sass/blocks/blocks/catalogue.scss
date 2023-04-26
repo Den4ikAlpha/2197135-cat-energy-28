@@ -1,5 +1,10 @@
+.catalogue {
+  width: 100%;
+}
+
 .catalogue__container {
   position: relative;
+  width: 100%;
   background: $main-background-color;
   display: flex;
   flex-direction: column;

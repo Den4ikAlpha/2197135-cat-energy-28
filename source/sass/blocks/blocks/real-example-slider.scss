@@ -1,3 +1,17 @@
 .real-example-slider {
+  position: relative;
   margin-bottom: 40px;
+}
+
+.real-example-slider__divider {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: $tablet-width) {
+  .real-example-slider__image {
+    width: 560px;
+  }
 }

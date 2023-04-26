@@ -1,4 +1,5 @@
 .comment-form {
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -8,8 +9,8 @@
     content: "";
     position: absolute;
     top: 15px;
-    right: -20px;
-    width: 158px;
+    left: 52%;
+    width: 55%;
     height: 2px;
     background-color: #68b738;
   }
@@ -27,8 +28,9 @@
   outline: 1px solid #e7e7e7;
   border: none;
   min-width: 255px;
+  width: calc(100% - 24px);
   height: 150px;
-  padding: 9px 12px 9px 15px;
+  padding: 9px 12px;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -55,17 +57,16 @@
     margin-bottom: 65px;
 
     &::before {
-      top: 25px;
-      width: 478px;
-      right: -70px;
+      top: 20px;
+      width: 60%;
     }
 
     &::after {
       content: "";
       position: absolute;
-      top: 25px;
-      left: -70px;
-      width: 30px;
+      top: 20px;
+      left: -15%;
+      width: 10%;
       height: 2px;
       background-color: #68b738;
     }
@@ -91,14 +92,14 @@
     margin-bottom: 65px;
 
     &::before {
-      width: 1108px;
-      right: -110px;
+      width: 89%;
+      left: 20%;
       top: 20px;
     }
 
     &::after {
-      width: 70px;
-      left: -110px;
+      width: 10%;
+      left: -15%;
       top: 20px;
     }
   }

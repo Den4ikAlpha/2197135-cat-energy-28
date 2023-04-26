@@ -1,6 +1,5 @@
 .address {
   display: grid;
-  width: 88%;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: stretch;
@@ -35,7 +34,7 @@
 
 @media (min-width: $tablet-width) {
   .address {
-    width: 80%;
+    width: calc(100% - 140px);
     padding: 56px 70px;
     justify-items: stretch;
     margin: 0 auto;

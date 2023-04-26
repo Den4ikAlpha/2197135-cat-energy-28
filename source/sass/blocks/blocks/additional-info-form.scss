@@ -8,8 +8,8 @@
     content: "";
     position: absolute;
     top: 15px;
-    right: -20px;
-    width: 136px;
+    left: 63%;
+    width: 44%;
     height: 2px;
     background-color: #68b738;
   }
@@ -87,17 +87,16 @@
     margin-bottom: 72px;
 
     &::before {
-      top: 25px;
-      width: 430px;
-      right: -70px;
+      top: 20px;
+      width: 48%;
     }
 
     &::after {
       content: "";
       position: absolute;
-      top: 25px;
-      left: -70px;
-      width: 30px;
+      top: 20px;
+      left: -15%;
+      width: 10%;
       height: 2px;
       background-color: #68b738;
     }
@@ -136,14 +135,14 @@
 @media (min-width: $desktop-width) {
   .additional-info-form {
     &::before {
-      width: 1078px;
-      right: -110px;
+      width: 89%;
+      left: 20%;
       top: 20px;
     }
 
     &::after {
-      width: 70px;
-      left: -110px;
+      width: 10%;
+      left: -15%;
       top: 20px;
     }
   }

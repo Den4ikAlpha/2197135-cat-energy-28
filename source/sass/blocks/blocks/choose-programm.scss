@@ -1,47 +1,56 @@
+.choose-programm {
+  width: 100vw;
+  background: url("../img/background-images/heroblock-background-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 105% 302px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/background-images/heroblock-background-mobile@2x.png");
+    background-size: 105% 302px;
+  }
+}
+
 .choose-programm__container {
   position: relative;
-  width: 100vw;
-  min-height: 480px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $main-background-color;
   font-family: "Oswald", sans-serif;
   font-size: 36px;
   font-weight: 400px;
   line-height: 36px;
   text-align: center;
-  text-transform: uppercase;
   color: $primary-font-color;
 }
 
 @media (min-width: $tablet-width) {
+  .choose-programm {
+    width: 100%;
+    margin-top: 57px;
+    background-image: none;
+  }
+
   .choose-programm__container {
-    min-width: 709px;
-    width: 92%;
+    position: relative;
+    width: 100%;
     margin-top: 62px;
     color: $primary-font-color;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    background-image: url("../img/index-can-tablet.png");
-    background-repeat: no-repeat;
-    background-size: 709px 609px;
-    background-position: left bottom 50px;
+    align-items: center;
+    align-self: flex-start;
   }
 }
 
 @media (min-width: $desktop-width) {
   .choose-programm {
-    min-width: 1220px;
-    width: 85%;
-    align-self: flex-start;
-    margin-left: 10%;
+    width: 100%;
   }
 
   .choose-programm__container {
-    padding-left: 0;
-    background-size: 522px 499px;
-    background-position: 60%;
+    margin-top: 0;
+    align-items: center;
+    min-height: 500px;
   }
 }
