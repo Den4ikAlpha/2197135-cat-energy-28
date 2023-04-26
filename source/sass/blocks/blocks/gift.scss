@@ -11,7 +11,12 @@
   background-image: url("../img/background-images/gift-image-background.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 280px 290px;
+  background-size: 280px auto;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/background-images/gift-image-background@2x.png");
+    background-size: 280px auto;
+  }
 }
 
 .gift__icon {

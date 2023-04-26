@@ -1,13 +1,15 @@
 .logo {
+  width: calc(100% - 40px);
+  padding: 0 20px;
   display: flex;
   align-self: center;
-  align-items: center;
 }
 
-.logo__image {
-  height: 38px;
-  width: 33px;
-  text-align: center;
+.logo__link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo__link:hover {
@@ -34,19 +36,34 @@
   height: 18px;
   width: 101px;
   text-align: center;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
   .logo {
     margin: 0;
-    margin-top: -10px;
-    height: 52px;
+    min-height: 52px;
     width: 174px;
+  }
+
+  .logo__image {
+    width: 174px;
+    height: 52px;
+  }
+
+  .logo__text {
+    display: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .logo {
     margin: 0;
+    width: 202px;
+  }
+
+  .logo__image {
+    width: 202px;
+    height: 59px;
   }
 }

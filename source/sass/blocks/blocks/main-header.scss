@@ -10,7 +10,6 @@
   font-size: 20px;
   line-height: 20px;
   color: $primary-font-color;
-  background: $main-background-color;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -37,11 +36,32 @@
 @media (min-width: $desktop-width) {
   .main-header {
     position: relative;
-    min-width: 1220px;
-    width: 82%;
+    width: calc(100% - 220px);
     padding: 54px 110px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../img/background-images/heroblock-background-cat.png");
+      width: 720px;
+      height: 694px;
+      top: 0;
+      right: 0;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/background-images/heroblock-background-cat@2x.png");
+        background-size: 720px 694px;
+      }
+    }
+  }
+
+  .main-header--form,
+  .main-header--catalog {
+    &::before {
+      display: none;
+    }
   }
 }

@@ -103,10 +103,22 @@
     }
   }
 
+  .site-list__item--current-form,
+  .site-list__item--current-catalog {
+    &::after {
+      background: #68b738;
+    }
+  }
+
   .site-list a {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: $background-font-color;
+  }
+
+  .site-list--form a,
+  .site-list--catalog a {
+    color: $primary-font-color;
   }
 }
