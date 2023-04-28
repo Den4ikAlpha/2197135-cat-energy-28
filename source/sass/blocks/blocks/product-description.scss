@@ -47,7 +47,8 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: url("../img/icons/leaf-icon.png");
+  background-image: url("../img/icons/leaf-icon.svg");
+  background-size: cover;
   left: -80px;
 }
 
@@ -56,7 +57,8 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: url("../img/icons/vessel-icon.png");
+  background-image: url("../img/icons/vessel-icon.svg");
+  background-size: cover;
   left: -80px;
 }
 
@@ -65,7 +67,8 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: url("../img/icons/fork-icon.png");
+  background-image: url("../img/icons/fork-icon.svg");
+  background-size: cover;
   left: -80px;
 }
 
@@ -74,7 +77,9 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: url("../img/icons/clock-icon.png");
+  background-image: url("../img/icons/group 4.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   left: -80px;
 }
 
@@ -122,6 +127,8 @@
 
     &::before {
       left: 0;
+      width: 80px;
+      height: 80px;
     }
 
     @media (min-resolution: 2dppx) {
@@ -137,6 +144,8 @@
 
     &::before {
       left: 0;
+      width: 80px;
+      height: 80px;
     }
 
     @media (min-resolution: 2dppx) {
@@ -152,6 +161,8 @@
 
     &::before {
       left: 0;
+      width: 80px;
+      height: 80px;
     }
 
     @media (min-resolution: 2dppx) {
@@ -167,6 +178,8 @@
 
     &::before {
       left: 0;
+      width: 80px;
+      height: 80px;
     }
 
     @media (min-resolution: 2dppx) {
