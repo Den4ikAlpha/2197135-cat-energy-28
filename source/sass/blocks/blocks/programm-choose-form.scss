@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     height: 1px;
-    top: 375px;
+    top: 355px;
     left: -5px;
     background-color: #d9d9d9;
     box-shadow: 0 160px 0 0 #d9d9d9;
@@ -20,12 +20,13 @@
 
 .programm-choose-form__header {
   margin: 0;
-  margin-top: 27px;
+  margin-top: 20px;
   margin-bottom: 37px;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   color: $primary-font-color;
+  align-self: flex-start;
 }
 
 .programm-choose-form__text {
@@ -36,7 +37,7 @@
   margin: 0;
 
   &--warning {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", "Arial", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -53,8 +54,9 @@
 @media (min-width: $tablet-width) {
   .programm-choose-form {
     padding: 0;
-    align-self: center;
-    margin-top: 65px;
+    align-self: flex-start;
+    margin-left: 40px;
+    margin-top: 55px;
 
     &::before {
       display: none;
@@ -83,7 +85,8 @@
 
 @media (min-width: $desktop-width) {
   .programm-choose-form {
-    margin-top: 0;
+    margin-top: 20px;
+    margin-left: 0;
     width: 1220px;
   }
 

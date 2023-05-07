@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 400px;
   line-height: 36px;
@@ -26,30 +26,32 @@
 
 @media (min-width: $tablet-width) {
   .choose-programm {
+    padding-left: 50px;
     width: 100%;
-    margin-top: 57px;
     background-image: none;
   }
 
   .choose-programm__container {
     position: relative;
-    width: 100%;
-    margin-top: 62px;
+    margin-top: 55px;
     color: $primary-font-color;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-self: flex-start;
+    align-items: flex-start;
+    padding-left: 65px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .choose-programm {
-    width: 100%;
+    padding: 0;
+    margin-top: 55px;
+    margin-bottom: 60px;
   }
 
   .choose-programm__container {
     margin-top: 0;
+    padding: 0;
     align-items: center;
     min-height: 500px;
   }

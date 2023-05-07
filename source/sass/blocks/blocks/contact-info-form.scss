@@ -1,7 +1,7 @@
 .contact-info-form {
   position: relative;
   width: 100%;
-  margin-top: 45px;
+  margin-top: 30px;
 
   &::before {
     content: "";
@@ -45,7 +45,7 @@
   outline: 1px solid #cdcdcd;
   border: none;
   padding: 14px 13px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -82,7 +82,7 @@
 
 .contact-info-form__icon--email {
   position: absolute;
-  right: 10px;
+  right: 20px;
 }
 
 .contact-info-form__label--phone {
@@ -91,12 +91,12 @@
 
 .contact-info-form__icon--phone {
   position: absolute;
-  right: 10px;
+  right: 20px;
 }
 
 @media (min-width: $tablet-width) {
   .contact-info-form {
-    margin-top: 71px;
+    margin-top: 50px;
 
     &::before {
       left: 90%;
@@ -144,7 +144,7 @@
 
 @media (min-width: $desktop-width) {
   .contact-info-form {
-    margin-top: 69px;
+    margin-top: 50px;
 
     &::before {
       width: 59%;

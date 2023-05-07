@@ -1,6 +1,6 @@
 .choose-programm-text {
   z-index: 1;
-  padding-top: 27px;
+  padding-top: 20px;
   padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -12,8 +12,8 @@
 
 .choose-programm-text__description {
   margin: 0;
-  margin-bottom: 35px;
-  font-family: "Oswald", sans-serif;
+  margin-bottom: 25px;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 1;
@@ -30,8 +30,9 @@
 }
 
 .choose-programm-text__button {
-  width: 90%;
-  padding: 7px 44px;
+  width: 69%;
+  padding: 12px 44px;
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -67,14 +68,15 @@
     width: 709px;
     height: 609px;
     z-index: -1;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 35%;
+    transform: translateX(-40%);
     top: 200px;
   }
 
   .choose-programm-text__button {
     margin-bottom: 529px;
-    padding: 14px 26px;
+    padding: 15px 25px;
+    width: 192px;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -91,8 +93,8 @@
   .choose-programm-text__image {
     width: 552px;
     height: 499px;
-    top: -50px;
-    left: 60%;
+    top: -80px;
+    left: 55%;
   }
 
   .choose-programm-text__description {
@@ -104,7 +106,7 @@
   }
 
   .choose-programm-text__button {
-    min-width: 244px;
+    min-width: 50px;
     margin-bottom: 0;
   }
 }
