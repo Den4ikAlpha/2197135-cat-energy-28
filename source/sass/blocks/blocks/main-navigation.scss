@@ -33,7 +33,7 @@
 .main-navigation--closed .main-navigation__toggle::before {
   content: "";
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 0;
   width: 24px;
   height: 2px;
@@ -50,7 +50,7 @@
 
 .main-navigation--opened .main-navigation__container {
   position: absolute;
-  top: 0;
+  top: -1px;
   z-index: 10;
   background-color: $main-background-color;
 }

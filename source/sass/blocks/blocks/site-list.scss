@@ -30,9 +30,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 30px;
     min-width: 440px;
+    gap: 10px;
     margin: 0;
+    margin-left: 20px;
 
     &:first-of-type {
       border: none;

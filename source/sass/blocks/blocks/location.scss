@@ -11,7 +11,7 @@
 
 .location__text {
   margin: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
 }
 
 .location__address address {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -28,6 +28,14 @@
 
   & br {
     display: none;
+  }
+}
+
+.location__iframe {
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    height: 400px;
   }
 }
 

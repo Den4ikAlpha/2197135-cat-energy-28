@@ -1,44 +1,93 @@
 .real-example-slider {
   display: block;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 22px;
 
-  &::before {
-    content: "";
-    position: absolute;
-    background-color: #666666;
-    width: 4px;
-    height: 256px;
-    top: 0;
-    left: 50%;
-    border-radius: 2px;
+  @media (min-width: $tablet-width) {
+    align-self: center;
+    margin-top: 70px;
+    margin-bottom: 75px;
+  }
 
-    @media (min-width: $tablet-width) {
-      height: 512px;
-    }
-
-    @media (min-width: $desktop-width) {
-      left: 280px;
-    }
+  @media (min-width: $desktop-width) {
+    margin-top: 40px;
+    margin-left: 40px;
   }
 }
 
 
 .real-example-slider__divider {
   position: absolute;
-  top: 45%;
   left: 50%;
+  top: 0;
+  z-index: 1;
+  border: none;
+  padding: 0;
+  width: 4px;
+  height: 256px;
+  border-radius: 2px;
+  color: $slider-color;
+  background-color: currentColor;
   transform: translateX(-50%);
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    height: 512px;
+  }
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    top: 50%;
     left: 280px;
+  }
+
+  &:hover {
+    color: #68b738;
+  }
+
+  &:active {
+    opacity: 0.6;
   }
 }
 
-.real-example-slider:hover {
-  &::before {
-    background-color: #68b738;
+
+.real-example-slider__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  color: #666666;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    color: #68b738;
+    outline: #68b738;
   }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.real-example-slider__button::before,
+.real-example-slider__button::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: 8px;
+  border-style: solid;
+  border-width: 9px 0 9px 8px;
+  border-color: transparent transparent transparent currentColor;
+}
+
+.real-example-slider__button::after {
+  transform: rotate(180deg);
+  top: 25%;
+  right: auto;
+  left: 8px;
 }
