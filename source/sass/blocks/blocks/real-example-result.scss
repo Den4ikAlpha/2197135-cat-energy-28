@@ -4,18 +4,16 @@
   align-items: center;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 .real-example-result__numbers {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 90px;
   column-gap: 30px;
 }
 
 .real-example-result__item {
-  margin-bottom: 20px;
   min-width: 124px;
   background-image: url("../img/icons/result-number-border.svg");
   background-repeat: no-repeat;
@@ -31,13 +29,12 @@
   color: $primary-font-color;
 }
 
-
 @media (min-width: $tablet-width) {
   .real-example-result {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     column-gap: 167px;
   }
 

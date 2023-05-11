@@ -63,18 +63,18 @@
           </div>
           <div class="programm-choose-type-form">
             <h3 class="visually-hidden">Выбор программы</h3>
-            <label class="programm-choose-type-form__label">
+            <label class="programm-choose-type-form__label" tabindex="0">
               <input class="visually-hidden programm-choose-type-form__input programm-choose-type-form__input--active"
                 name="programm-type" type="radio" checked>
               <span class="programm-choose-type-form__mark"></span>
               <span class="programm-choose-type-form__text">Похудение</span>
             </label>
-            <label class="programm-choose-type-form__label">
+            <label class="programm-choose-type-form__label" tabindex="0">
               <input class="visually-hidden programm-choose-type-form__input" name="programm-type" type="radio">
               <span class="programm-choose-type-form__mark"></span>
               <span class="programm-choose programm-choose-type-form__text">Набор массы</span>
             </label>
-            <label class="programm-choose-type-form__label">
+            <label class="programm-choose-type-form__label" tabindex="0">
               <input class="visually-hidden programm-choose-type-form__input" name="programm-type" type="radio">
               <span class="programm-choose-type-form__mark"></span>
               <span class="programm-choose-type-form__text">Не знаю (Нужен ваш совет)</span>
@@ -113,24 +113,24 @@
         <div class="additional-info-form">
           <h3 class="additional-info-form__header">Дополнительно</h3>
           <div class="additional-info-form__container">
-            <label class="additional-info-form__label additional-info-form__label--checked">
+            <label class="additional-info-form__label additional-info-form__label--checked" tabindex="0">
               <input class="visually-hidden additional-info-form__input" type="checkbox" name="sugar-free"
                 value="sugar-free" checked>
               <span class="additional-info-form__mark"></span>
               <span class="additional-info-form__text">сахарозаменитель</span>
             </label>
-            <label class="additional-info-form__label">
+            <label class="additional-info-form__label" tabindex="0">
               <input class="visually-hidden additional-info-form__input" type="checkbox" name="drinkwater"
                 value="drinkwater">
               <span class="additional-info-form__mark"></span>
               <span class="additional-info-form__text">питьевая вода</span>
             </label>
-            <label class="additional-info-form__label">
+            <label class="additional-info-form__label" tabindex="0">
               <input class="visually-hidden additional-info-form__input" type="checkbox" name="milk" value="milk">
               <span class="additional-info-form__mark"></span>
               <span class="additional-info-form__text">молоко</span>
             </label>
-            <label class="additional-info-form__label">
+            <label class="additional-info-form__label" tabindex="0">
               <input class="visually-hidden additional-info-form__input" type="checkbox" name="vitamins"
                 value="vitamins" checked>
               <span class="additional-info-form__mark"></span>
@@ -152,7 +152,7 @@
     <div class="main-footer__container">
       <div class="main-footer__location location">
         <h3 class="visually-hidden">Локация магазина</h3>
-        <div class="location__address address">
+        <div class="location__address address address--form">
           <p class="location__text address__text">приглашаем<br>
             к сотрудничеству<br>
             дилеров!
@@ -164,26 +164,24 @@
         </div>
         <div class="location__map">
           <iframe class="location__iframe"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257198202!2d30.32047247735734!3d59.938719162093534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2s!4v1683256742636!5m2!1sru!2s"
-          width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-          <noscript>
-            <picture>
-              <source media="(min-width:1440px)" type="image/webp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257198202!2d30.32047247735734!3d59.938719162093534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2s!4v1683256742636!5m2!1sru!2s"
+            width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <picture>
+            <source media="(min-width:1440px)" type="image/webp"
               srcset="img/desktop-location.webp 1x, img/desktop-location@2x.webp 2x">
-              <source media="(min-width:768px)" type="image/webp"
+            <source media="(min-width:768px)" type="image/webp"
               srcset="img/tablet-location.webp 1x, img/tablet-location@2x.webp 2x">
-              <source type="image/webp"
-              srcset="img/location.webp 1x, img/location.webp 2x">
-              <source media="(min-width:1440px)" srcset="img/desktop-location.jpg 1x, img/desktop-location@2x.jpg 2x">
-              <source media="(min-width:769px)" srcset="img/tablet-location.jpg 1x, img/tablet-location@2x.jpg 2x">
-              <img class="location__image" src="img/location.jpg" srcset="img/location@2x.jpg 2x" width="320" height="362"
-                alt="Карта расположения магазина">
-            </picture>
-          </noscript>
+            <source type="image/webp" srcset="img/location.webp 1x, img/location.webp 2x">
+            <source media="(min-width:1440px)" srcset="img/desktop-location.jpg 1x, img/desktop-location@2x.jpg 2x">
+            <source media="(min-width:769px)" srcset="img/tablet-location.jpg 1x, img/tablet-location@2x.jpg 2x">
+            <img class="location__image" src="img/location.jpg" srcset="img/location@2x.jpg 2x" width="320" height="362"
+              alt="Карта расположения магазина">
+          </picture>
         </div>
-      </div>      <div class="main-footer__lower-content">
+      </div>
+      <div class="main-footer__lower-content main-footer__lower-content--form">
         <div class="main-footer__logo logo">
           <h3 class="visually-hidden">Лого-ссылка</h3>
           <a class="main-footer__link logo__link" href="index.html">

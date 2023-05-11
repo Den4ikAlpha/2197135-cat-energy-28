@@ -18,7 +18,7 @@
 .additional-info-form__container {
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 22px;
 }
 
 .additional-info-form__label {
@@ -79,18 +79,18 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: $tablet-width) {
   .additional-info-form {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     &::before {
-      left: 250px;
+      left: 30%;
       top: 20px;
-      width: 72%;
+      width: 83%;
     }
 
     &::after {
@@ -128,7 +128,8 @@
 
   .additional-info-form__lower-container {
     margin-top: 54px;
-    width: 533px;
+    margin-bottom: 40px;
+    width: 84%;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -138,10 +139,10 @@
 
 @media (min-width: $desktop-width) {
   .additional-info-form {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 
     &::before {
-      width: 89%;
+      width: 85%;
       left: 20%;
       top: 20px;
     }
@@ -153,16 +154,18 @@
     }
   }
 
+  .additional-info-form__header {
+    margin-bottom: 60px;
+  }
+
   .additional-info-form__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 80px;
   }
 
   .additional-info-form__lower-container {
-    width: 1220px;
-    justify-content: flex-start;
-    column-gap: 84px;
+    width: 68%;
+    margin-top: 70px;
   }
 }

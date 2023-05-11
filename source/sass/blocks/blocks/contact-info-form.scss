@@ -1,7 +1,7 @@
 .contact-info-form {
   position: relative;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 55px;
 
   &::before {
     content: "";
@@ -96,7 +96,7 @@
 
 @media (min-width: $tablet-width) {
   .contact-info-form {
-    margin-top: 50px;
+    margin-top: 80px;
 
     &::before {
       left: 90%;
@@ -121,10 +121,10 @@
     font-size: 36px;
     line-height: 36px;
     margin-bottom: 76px;
+  }
 
-    & br {
-      display: none;
-    }
+  .contact-info-form__header br {
+    display: none;
   }
 
   .contact-info-form__label {
@@ -144,28 +144,22 @@
 
 @media (min-width: $desktop-width) {
   .contact-info-form {
-    margin-top: 50px;
+    margin-top: 70px;
 
     &::before {
-      width: 59%;
+      width: 57%;
       left: 50%;
     }
   }
 
   .contact-info-form__header {
-    margin-bottom: 69px;
+    margin-bottom: 75px;
   }
 
   .contact-info-form__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 78px;
-
-    &::before {
-      width: 1000px;
-      left: 10%;
-      top: 20px;
-    }
 
     &::after {
       width: 10%;

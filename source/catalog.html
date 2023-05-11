@@ -288,9 +288,11 @@
           </li>
           <li class="product-item product-item--show-more">
             <a class="product-item__link product-item__link--showmore" href="#">
-              <p class="product-item__name product-item__name--show-more">Показать еще 100500 товаров</p>
+              <p class="product-item__name product-item__name--show-more">Показать еще<br>
+                100500 товаров</p>
             </a>
-            <span class=" product-item__description product-item__description--show-more">На самом деле вкусов гораздо
+            <span class="product-item__description product-item__description--show-more">На самом деле вкусов<br>
+              гораздо
               больше!</span>
             <button class="product-item__button product-item__button--show-more button">Показать все</button>
           </li>
@@ -363,7 +365,7 @@
     <div class="main-footer__container">
       <div class="main-footer__location location">
         <h3 class="visually-hidden">Локация магазина</h3>
-        <div class="location__address address">
+        <div class="location__address address address--catalog">
           <p class="location__text address__text">приглашаем<br>
             к сотрудничеству<br>
             дилеров!
@@ -379,22 +381,20 @@
             width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
-          <noscript>
-            <picture>
-              <source media="(min-width:1440px)" type="image/webp"
-                srcset="img/desktop-location.webp 1x, img/desktop-location@2x.webp 2x">
-              <source media="(min-width:768px)" type="image/webp"
-                srcset="img/tablet-location.webp 1x, img/tablet-location@2x.webp 2x">
-              <source type="image/webp" srcset="img/location.webp 1x, img/location.webp 2x">
-              <source media="(min-width:1440px)" srcset="img/desktop-location.jpg 1x, img/desktop-location@2x.jpg 2x">
-              <source media="(min-width:769px)" srcset="img/tablet-location.jpg 1x, img/tablet-location@2x.jpg 2x">
-              <img class="location__image" src="img/location.jpg" srcset="img/location@2x.jpg 2x" width="320"
-                height="362" alt="Карта расположения магазина">
-            </picture>
-          </noscript>
+          <picture>
+            <source media="(min-width:1440px)" type="image/webp"
+              srcset="img/desktop-location.webp 1x, img/desktop-location@2x.webp 2x">
+            <source media="(min-width:768px)" type="image/webp"
+              srcset="img/tablet-location.webp 1x, img/tablet-location@2x.webp 2x">
+            <source type="image/webp" srcset="img/location.webp 1x, img/location.webp 2x">
+            <source media="(min-width:1440px)" srcset="img/desktop-location.jpg 1x, img/desktop-location@2x.jpg 2x">
+            <source media="(min-width:769px)" srcset="img/tablet-location.jpg 1x, img/tablet-location@2x.jpg 2x">
+            <img class="location__image" src="img/location.jpg" srcset="img/location@2x.jpg 2x" width="320" height="362"
+              alt="Карта расположения магазина">
+          </picture>
         </div>
       </div>
-      <div class="main-footer__lower-content">
+      <div class="main-footer__lower-content  main-footer__lower-content--catalog">
         <div class="main-footer__logo logo">
           <h3 class="visually-hidden">Лого-ссылка</h3>
           <a class="main-footer__link logo__link" href="index.html">

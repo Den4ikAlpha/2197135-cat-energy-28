@@ -1,17 +1,16 @@
 .real-example-slider {
   display: block;
   position: relative;
-  margin-bottom: 22px;
 
   @media (min-width: $tablet-width) {
     align-self: center;
     margin-top: 70px;
-    margin-bottom: 75px;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 40px;
     margin-left: 40px;
+    margin-bottom: 0;
   }
 }
 

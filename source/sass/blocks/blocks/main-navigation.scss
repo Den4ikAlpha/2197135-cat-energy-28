@@ -15,7 +15,7 @@
   right: 5%;
   z-index: 2;
   width: 30px;
-  height: 40px;
+  height: 30px;
   margin-top: -30px;
   background-color: $main-background-color;
   cursor: pointer;
@@ -50,7 +50,7 @@
 
 .main-navigation--opened .main-navigation__container {
   position: absolute;
-  top: -1px;
+  top: 10px;
   z-index: 10;
   background-color: $main-background-color;
 }
@@ -60,7 +60,7 @@
   &::after {
     content: "";
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 0;
     width: 24px;
     height: 2px;

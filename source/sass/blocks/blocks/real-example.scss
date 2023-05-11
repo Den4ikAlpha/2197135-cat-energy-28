@@ -7,7 +7,9 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  padding: 25px 20px;
+  padding: 0 20px;
+  padding-top: 25px;
+  padding-bottom: 40px;
   background-color: $real-example-background-color;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
@@ -39,7 +41,7 @@
   .real-example {
     position: relative;
     width: 100vw;
-    background: linear-gradient(to bottom, #ffffff 61%, #eaeaea 61%);
+    background: linear-gradient(to bottom, #ffffff 57%, #eaeaea 57%);
 
     &::before {
       content: "";
@@ -59,11 +61,13 @@
     background: none;
     padding-left: 31px;
     padding-right: 31px;
+    margin-bottom: 70px;
+    padding-bottom: 25px;
   }
 
   .real-example__header {
-    margin-bottom: 63px;
-    margin-top: 35px;
+    margin-bottom: 65px;
+    margin-top: 15px;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
@@ -74,15 +78,16 @@
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 54px;
+  }
 
-    & br {
-      display: none;
-    }
+  .real-example__text br {
+    display: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .real-example {
+    width: calc(100% + 220px);
     background: linear-gradient(to bottom, #ffffff 200px, #eaeaea 200px);
 
     &::before {
@@ -95,10 +100,12 @@
     grid-template-columns: 1fr 1fr;
     padding-left: 110px;
     padding-right: 110px;
+    margin-bottom: 75px;
     padding-bottom: 0;
   }
 
   .real-example__header {
+    margin-top: 30px;
     margin-bottom: 146px;
   }
 

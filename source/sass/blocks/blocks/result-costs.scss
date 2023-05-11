@@ -1,3 +1,7 @@
+.result-costs {
+  margin-top: 9px;
+}
+
 .result-costs__text {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -5,16 +9,16 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+}
 
-  & br {
-    display: none;
-  }
+.result-costs__text br {
+  display: none;
 }
 
 @media (min-width: $tablet-width) {
   .result-costs {
     display: flex;
-    margin-top: 10px;
+    margin-top: -35px;
   }
 
   .result-costs__text {
@@ -22,19 +26,20 @@
     font-size: 20px;
     line-height: 20px;
     text-align: right;
+  }
 
-    & br {
-      display: block;
-    }
+  .result-costs__text br {
+    display: block;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .result-costs__text {
-    margin-top: 30px;
+  .result-costs {
+    margin: 0;
+    margin-top: 45px;
+  }
 
-    & br {
-      display: none;
-    }
+  .result-costs__text br {
+    display: none;
   }
 }
