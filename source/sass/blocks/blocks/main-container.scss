@@ -24,7 +24,7 @@
   .main-container {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: calc(100% - 220px);
     padding: 0 110px;
   }
 }

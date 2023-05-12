@@ -7,11 +7,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   color: $main-background-color;
 }
 
 .choose-programm-text__description {
   margin: 0;
+  margin-top: 10px;
   margin-bottom: 25px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
@@ -40,11 +42,13 @@
 
 @media (min-width: $tablet-width) {
   .choose-programm-text {
+    width: 450px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: $primary-font-color;
     padding: 0;
+    margin-left: 30px;
     min-width: 414px;
   }
 
@@ -52,6 +56,7 @@
     font-size: 60px;
     line-height: 60px;
     text-align: left;
+    margin: 0;
     margin-bottom: 41px;
   }
 
@@ -68,7 +73,7 @@
     width: 709px;
     height: 609px;
     z-index: -1;
-    left: 35%;
+    left: 40%;
     transform: translateX(-40%);
     top: 200px;
   }
@@ -87,7 +92,7 @@
   .choose-programm-text {
     margin: 0;
     align-self: flex-start;
-    margin-left: 80px;
+    margin-left: 20px;
   }
 
   .choose-programm-text__image {

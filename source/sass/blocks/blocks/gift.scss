@@ -1,13 +1,16 @@
 .gift {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   margin-top: 54px;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 0 20px;
   min-height: 290px;
+  background-color: #68b738;
   background-image: url("../img/background-images/gift-image-background.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -20,7 +23,8 @@
 }
 
 .gift__icon {
-  display: none;
+  display: block;
+  margin-top: 25px;
 }
 
 .gift__text {
@@ -31,9 +35,10 @@
   line-height: 20px;
   color: $background-font-color;
   text-align: center;
-  margin-bottom: 43px;
+  margin-top: 60px;
 
   &::before {
+    display: none;
     content: "";
     position: absolute;
     width: 78px;
@@ -47,13 +52,23 @@
 
 @media (min-width: $tablet-width) {
   .gift {
-    margin-top: 30px;
-    background-size: 100% 75%;
+    min-height: 200px;
+    margin: 0;
+    margin-top: 65px;
+    margin-bottom: 85px;
+    background-image: url("../img/background-images/tablet-gift-image-background.png");
+    background-size: 100% 200px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    column-gap: 210px;
     align-items: center;
-    padding-left: 77px;
+    padding-left: 30px;
     padding-right: 77px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/background-images/tablet-gift-image-background@2x.png");
+      background-size: 707px 200px;
+    }
   }
 
   .gift__icon {
@@ -74,17 +89,27 @@
   .gift {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 245px;
     padding: 0;
+    padding-top: 10px;
     margin-top: 160px;
     margin-left: 80px;
     margin-bottom: 0;
+    background-image: url("../img/background-images/gift-image-background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: 100% 289px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/background-images/gift-image-background@2x.png");
+      background-size: 280px auto;
+    }
   }
 
   .gift__icon {
-    display: none;
+    display: block;
   }
 
   .gift__text {
@@ -93,7 +118,7 @@
     margin-bottom: 52px;
 
     &::before {
-      display: block;
+      display: none;
     }
   }
 }
