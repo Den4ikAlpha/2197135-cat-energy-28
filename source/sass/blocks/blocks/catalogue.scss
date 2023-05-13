@@ -55,7 +55,7 @@
 
 @media (min-width: $tablet-width) {
   .catalogue {
-    margin-top: 60px;
+    margin-top: 55px;
     width: 100%;
   }
 
@@ -71,7 +71,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 60px;
-    row-gap: 130px;
+    row-gap: 131px;
     align-items: stretch;
     padding: 0;
     margin-top: 80px;
@@ -79,7 +79,7 @@
 
   .catalogue__header {
     margin: 0;
-    margin-bottom: 82px;
+    margin-bottom: 85px;
     font-size: 60px;
     line-height: 60px;
   }
@@ -93,7 +93,7 @@
 
   .catalogue__product-list {
     display: grid;
-    width: 100%;
+    column-gap: 79px;
     row-gap: 135px;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;

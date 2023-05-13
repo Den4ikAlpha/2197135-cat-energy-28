@@ -15,8 +15,8 @@
 }
 
 .product-descriptions__header {
-  margin-top: 23px;
-  margin-bottom: 40px;
+  margin-top: 13px;
+  margin-bottom: 42px;
   margin-left: -50px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
@@ -200,7 +200,7 @@
   }
 
   .product-descriptions__text {
-    margin-top: 155px;
+    margin-top: 152px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -213,7 +213,8 @@
   }
 
   .product-descriptions__header {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
     font-size: 60px;
     line-height: 60px;
   }
@@ -244,6 +245,10 @@
     background-position: right;
     background-size: contain;
 
+    &::before {
+      top: 37px;
+    }
+
     @media (min-resolution: 2dppx) {
       background-image: url("../img/background-images/image-one@2x.png");
       background-size: contain;
@@ -255,6 +260,10 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+
+    &::before {
+      top: 37px;
+    }
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/background-images/image-two@2x.png");
@@ -268,6 +277,10 @@
     background-position: right;
     background-size: contain;
 
+    &::before {
+      top: 37px;
+    }
+
     @media (min-resolution: 2dppx) {
       background-image: url("../img/background-images/image-three@2x.png");
       background-size: contain;
@@ -279,6 +292,10 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+
+    &::before {
+      top: 37px;
+    }
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/background-images/image-four@2x.png");
