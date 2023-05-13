@@ -6,7 +6,7 @@
   &::before {
     content: "";
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 70%;
     width: 37%;
     height: 2px;
@@ -33,7 +33,7 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 18px;
   color: $secondary-font-color;
@@ -83,6 +83,14 @@
 .contact-info-form__icon--email {
   position: absolute;
   right: 20px;
+
+  @media (min-width: $tablet-width) {
+    right: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: 20px;
+  }
 }
 
 .contact-info-form__label--phone {
@@ -92,6 +100,14 @@
 .contact-info-form__icon--phone {
   position: absolute;
   right: 20px;
+
+  @media (min-width: $tablet-width) {
+    right: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: 20px;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -99,9 +115,9 @@
     margin-top: 80px;
 
     &::before {
-      left: 90%;
+      left: 89%;
       top: 20px;
-      width: 22%;
+      width: 23%;
     }
   }
 
@@ -111,7 +127,7 @@
       position: absolute;
       top: 20px;
       left: -15%;
-      width: 10%;
+      width: 9%;
       height: 2px;
       background-color: #68b738;
     }
@@ -129,6 +145,7 @@
 
   .contact-info-form__label {
     margin-bottom: 20px;
+    gap: 22px;
   }
 
   .contact-info-form__label,
@@ -147,8 +164,8 @@
     margin-top: 70px;
 
     &::before {
-      width: 57%;
-      left: 50%;
+      width: 64%;
+      left: 45%;
     }
   }
 

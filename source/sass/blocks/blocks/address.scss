@@ -3,12 +3,23 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: stretch;
-  padding: 10px 20px;
+  padding: 30px 20px;
   font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: $secondary-font-color;
   text-decoration: none;
+}
+
+.address--index {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: auto;
+  }
 }
 
 .address--catalog,
@@ -17,23 +28,10 @@
   padding: 20px 20px;
 }
 
-.address__text--street {
-  font-family: "Lato", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: left;
-}
-
-.address__text--street br {
-  display: none;
-}
-
 @media (min-width: $tablet-width) {
   .address {
     width: calc(100% - 140px);
-    padding: 56px 70px;
+    padding: 60px 70px;
     justify-items: stretch;
     margin: 0 auto;
   }
@@ -42,17 +40,14 @@
     font-size: 20px;
     line-height: 26px;
   }
-
-  .address__text--street br {
-    display: block;
-  }
 }
 
 @media (min-width: $desktop-width) {
   .address {
     position: absolute;
     z-index: 4;
-    padding: 45px 80px;
+    column-gap: 90px;
+    padding: 60px 80px;
     width: 405px;
     top: 95px;
     left: 110px;
