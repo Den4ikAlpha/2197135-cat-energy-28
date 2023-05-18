@@ -1,4 +1,5 @@
 .choose-programm-text {
+  width: 87%;
   z-index: 1;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -32,7 +33,7 @@
 }
 
 .choose-programm-text__button {
-  width: 69%;
+  align-self: stretch;
   padding: 12px 44px;
   text-decoration: none;
   font-weight: 400;

@@ -15,11 +15,6 @@
   text-transform: uppercase;
 }
 
-.main-header--index {
-  width: 320px;
-  margin: 0 auto;
-}
-
 @media (min-width: $tablet-width) {
   .main-header {
     display: flex;

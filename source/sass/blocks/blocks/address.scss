@@ -11,17 +11,6 @@
   text-decoration: none;
 }
 
-.address--index {
-  width: 280px;
-  margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 20px;
-
-  @media (min-width: $tablet-width) {
-    width: auto;
-  }
-}
-
 .address--catalog,
 .address--form {
   background-color: #f2f2f2;

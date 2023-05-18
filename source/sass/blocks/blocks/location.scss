@@ -14,6 +14,7 @@
 }
 
 .location__address address {
+  justify-self: end;
   font-family: "Lato", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -60,19 +61,6 @@
 
   @media (min-width: $tablet-width) {
     height: 400px;
-  }
-}
-
-.location__iframe--index {
-  width: 320px;
-  margin: 0 auto;
-  left: 50%;
-  transform: translateX(-50%);
-
-  @media (min-width: $tablet-width) {
-    left: 0;
-    transform: translateX(0);
-    width: 100%;
   }
 }
 

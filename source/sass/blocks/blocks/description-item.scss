@@ -1,5 +1,5 @@
 .description-item {
-  width: 240px;
+  width: calc(100% - 40px);
   position: relative;
   background-color: $description-item-background-color;
   padding: 24px 20px;

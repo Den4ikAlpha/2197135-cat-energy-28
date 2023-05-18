@@ -69,10 +69,10 @@
 
   .catalogue__product-list {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr;
     column-gap: 60px;
     row-gap: 131px;
-    align-items: stretch;
     padding: 0;
     margin-top: 80px;
   }
